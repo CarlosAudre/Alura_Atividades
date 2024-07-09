@@ -75,7 +75,7 @@ public class Teste {
         }
 
         System.out.println(valores.size()); /*A cada looping, o tamanho da lista vai cresncendo conforme
-        vai se adicionando novos valors */
+        vai se adicionando novos valores */
 
         System.out.println("****************************************************************");
         System.out.println("COMPRAS REALIZADAS: \n");
