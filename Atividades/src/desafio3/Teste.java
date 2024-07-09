@@ -77,10 +77,11 @@ public class Teste {
         System.out.println(valores.size()); /*A cada looping, o tamanho da lista vai cresncendo conforme
         vai se adicionando novos valores */
 
+
         System.out.println("****************************************************************");
         System.out.println("COMPRAS REALIZADAS: \n");
         for (int i = 0; i < valores.size(); i++){
-            Collections.sort(valores);
+            Collections.sort(valores); //Ordena os valores na forma crescente
             //Otra forma de ordenar - valores.sort(Comparator.comparing(AplicacaoCompras::getPreco));
             System.out.println(valores.get(i));
         }
